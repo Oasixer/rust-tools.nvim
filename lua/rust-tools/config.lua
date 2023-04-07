@@ -176,7 +176,8 @@ local defaults = {
   dap = {
     adapter = {
       type = "executable",
-      command = "lldb-vscode",
+      -- command = "lldb-vscode",
+      command = "lldb-vscode-14",
       name = "rt_lldb",
     },
   },
